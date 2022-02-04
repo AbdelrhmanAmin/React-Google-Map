@@ -2,6 +2,8 @@
 
 An isolated React component I extracted from a personal project.
 
+![image](https://user-images.githubusercontent.com/37663043/152618138-584088f5-2f41-4868-a073-497112b4cb36.png)
+
 I used [`React-Google-Maps-Wrapper`](https://www.npmjs.com/package/@googlemaps/react-wrapper) and [`react-autocomplete-places`](https://github.com/hibiken/react-places-autocomplete).
 
 ## Install
