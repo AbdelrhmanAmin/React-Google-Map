@@ -27,10 +27,11 @@ const LocationSearchInput = ({ handleSelect }) => {
           <input
             {...getInputProps({
               placeholder: "Search Place name...",
-              className: "w-100 py-2 bg-opacity-75 bg-light rounded-sm",
+              className:
+                "text-dark w-100 py-2 bg-opacity-75 bg-light rounded-sm",
             })}
           />
-          <div className="text-dark position-absolute left-0 w-100">
+          <div className="text-dark position-absolute left-0 w-100 pe-3">
             {suggestions.map((suggestion, i) => {
               const style = suggestion.active
                 ? { backgroundColor: "#fafafa", cursor: "pointer" }
