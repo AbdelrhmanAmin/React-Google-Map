@@ -4,6 +4,16 @@ An isolated React component I extracted from a personal project.
 
 I used [`React-Google-Maps-Wrapper`](https://www.npmjs.com/package/@googlemaps/react-wrapper) and [`react-autocomplete-places`](https://github.com/hibiken/react-places-autocomplete).
 
+## Install
+
+```JSX
+  git clone https://github.com/AbdelrhmanAmin/React-Google-Map.git
+```
+
+```JSX
+  npm i @googlemaps/react-wrapper react-places-autocomplete
+```
+
 ## NOTES
 
 - **I am currently occupied and I can't maintain or refactor this repo, so feel free to copy-paste and adjust the component to your own convenience.**
