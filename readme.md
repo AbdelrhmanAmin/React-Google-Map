@@ -6,11 +6,11 @@ I used [`React-Google-Maps-Wrapper`](https://www.npmjs.com/package/@googlemaps/r
 
 ## Install
 
-```JSX
+```
   git clone https://github.com/AbdelrhmanAmin/React-Google-Map.git
 ```
 
-```JSX
+```
   npm i @googlemaps/react-wrapper react-places-autocomplete
 ```
 
