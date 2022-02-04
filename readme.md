@@ -1,14 +1,20 @@
-# React-Google-Map
+# React-Google-Map 🗺️🗺️🗺️
 
-🗺️🗺️🗺️A React component I built for a project.
+An isolated React component I extracted from a personal project.
 
-I used [`google-maps API`](https://www.npmjs.com/package/@googlemaps/react-wrapper) and [`react-autocomplete-places`](https://github.com/hibiken/react-places-autocomplete).
+I used [`React-Google-Maps-Wrapper`](https://www.npmjs.com/package/@googlemaps/react-wrapper) and [`react-autocomplete-places`](https://github.com/hibiken/react-places-autocomplete).
 
-### NOTE: I am currently occupied and I can't maintain or refactor this repo, so feel free to copy-paste and adjust the component to your own convience
+## NOTES
 
-### How to use? Here is an example.
+- **I am currently occupied and I can't maintain or refactor this repo, so feel free to copy-paste and adjust the component to your own convenience.**
 
-Get a free API from here: https://developers.google.com/maps/documentation/maps-static/get-api-key#creating-api-keys
+- **Unfortunately, I used Bootstrap to style this map. My deepest apologizes. Feel free to change anything.**
+
+- **Get a free API from here: <https://developers.google.com/maps/documentation/maps-static/get-api-key#creating-api-keys>**
+
+- **I am using dark map, you can get more styles from here: <https://mapstyle.withgoogle.com> . To change the style, just change the JSON file `MapStyle.json`**
+
+## How to use? Here is an example
 
 ```JSX
 
@@ -30,5 +36,3 @@ const placesToGo = [
 />
 
 ```
-
-#### I am using dark map, you can get more styles from here: https://mapstyle.withgoogle.com . To change the style, just change the JSON file `MapStyle.json`
