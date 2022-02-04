@@ -1,6 +1,8 @@
 # React-Google-Map
 
-🗺️🗺️🗺️A React component I built for a project. I used google-maps API and NPM package `react-autocomplete-places`.
+🗺️🗺️🗺️A React component I built for a project.
+
+I used [`google-maps API`](https://www.npmjs.com/package/@googlemaps/react-wrapper) and [`react-autocomplete-places`](https://github.com/hibiken/react-places-autocomplete).
 
 ### NOTE: I am currently occupied and I can't maintain or refactor this repo, so feel free to copy-paste and adjust the component to your own convience
 
