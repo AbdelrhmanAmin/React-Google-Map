@@ -8,7 +8,7 @@ I used [`React-Google-Maps-Wrapper`](https://www.npmjs.com/package/@googlemaps/r
 
 - **I am currently occupied and I can't maintain or refactor this repo, so feel free to copy-paste and adjust the component to your own convenience.**
 
-- **Unfortunately, I used Bootstrap to style this map My deepest apologizes <img src="sadge.png" width="20" height="20" alt="sadge">.**
+- **Unfortunately, I used Bootstrap to style this map. My deepest apologizes <img src="sadge.png" width="20" height="20" alt="sadge">.**
 
 - **Get a free API from here: <https://developers.google.com/maps/documentation/maps-static/get-api-key#creating-api-keys>**
 
