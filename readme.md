@@ -6,12 +6,13 @@ I used [`google-maps API`](https://www.npmjs.com/package/@googlemaps/react-wrapp
 
 ### NOTE: I am currently occupied and I can't maintain or refactor this repo, so feel free to copy-paste and adjust the component to your own convience
 
-### How to use?
+### How to use? Here is an example.
 
 ```JSX
 
 import { Map } from "./MAP_FOLDER_NAME";
 
+// Render pre-existing markers on the screen
 const placesToGo = [
   { lat: 30.0444, lng: 31.2357, address: "Cairo"},
   { lat: 30.8761, lng: 29.7426, address: "Alexandria" },
