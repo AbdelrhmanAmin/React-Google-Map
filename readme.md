@@ -7,7 +7,8 @@ I used [`google-maps API`](https://www.npmjs.com/package/@googlemaps/react-wrapp
 ### NOTE: I am currently occupied and I can't maintain or refactor this repo, so feel free to copy-paste and adjust the component to your own convience
 
 ### How to use? Here is an example.
-// Get a free API from here: https://developers.google.com/maps/documentation/maps-static/get-api-key#creating-api-keys
+
+Get a free API from here: https://developers.google.com/maps/documentation/maps-static/get-api-key#creating-api-keys
 
 ```JSX
 
@@ -29,3 +30,5 @@ const placesToGo = [
 />
 
 ```
+
+#### I am using dark map, you can get more styles from here: https://mapstyle.withgoogle.com . To change the style, just change the JSON file `MapStyle.json`
