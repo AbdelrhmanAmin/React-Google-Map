@@ -5,7 +5,7 @@ import SearchLocationInput from "./SearchLocationInput";
 import { geocodeByAddress, getLatLng } from "react-places-autocomplete";
 import PropTypes from "prop-types";
 
-const Map = ({ width, height, startAtCoords, placesToGo }) => {
+const Map = ({ width, height, startAtCoords, placesToGo, apiKey }) => {
   const [mapProps, setMapProps] = React.useState({
     coords: startAtCoords,
     bounds: null,
@@ -24,7 +24,7 @@ const Map = ({ width, height, startAtCoords, placesToGo }) => {
   const dimensions = { width, height };
   return (
     <div>
-      <Wrapper apiKey={process.env.REACT_APP_GOOGLE_MAP_API}>
+      <Wrapper apiKey={apiKey}>
         <div
           style={dimensions}
           className="position-relative d-flex flex-column align-items-center border border-2 border-light"
