@@ -23,6 +23,8 @@ const placesToGo = [
   height={400}
   startAtCoords={{ lat: 30.033333, lng: 31.233334 }}
   placesToGo={placesToGo.current}
+  // Get a free API from here: https://developers.google.com/maps/documentation/maps-static/get-api-key#creating-api-keys
+  apiKey={"YOUR_API_KEY"}
 />
 
 ```
