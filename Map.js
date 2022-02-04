@@ -64,7 +64,6 @@ Map.propTypes = {
       lng: PropTypes.number.isRequired,
     })
   ).isRequired,
-  onSubmit: PropTypes.func,
 };
 
 export default Map;
