@@ -1,3 +1,5 @@
+// Credits: https://stackoverflow.com/a/13274361/18110171
+
 const latRad = (lat) => {
   var sin = Math.sin((lat * Math.PI) / 180);
   var radX2 = Math.log((1 + sin) / (1 - sin)) / 2;
